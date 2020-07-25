@@ -34,7 +34,9 @@ section {
 }
 
 /* Headings */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-weight: 300;
   text-transform: uppercase;
 }
@@ -85,7 +87,7 @@ h2:after {
 
 /* Icons */
 ion-icon {
-  font-size: 350%;  
+  font-size: 350%;
   display: block;
   color: #e67e22;
   margin-bottom: 10px;
@@ -157,7 +159,7 @@ header {
 }
 
 .main-nav li {
-  display: inline-block; 
+  display: inline-block;
   margin-left: 40px;
 }
 
@@ -175,4 +177,30 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
   border-bottom: 2px solid #e67e22;
+}
+
+/* -------------------------------------- */
+/* Meals */
+/* -------------------------------------- */
+
+.meals-showcase {
+  list-style: none;
+  width: 100%;
+}
+
+.meals-showcase li {
+  display: block;
+  float: left;
+  width: 25%;
+}
+
+.meal-photo {
+  width: 100%;
+  margin: 0;
+
+}
+
+.meal-photo img {
+  width: 100%;
+  height: auto;
 }
