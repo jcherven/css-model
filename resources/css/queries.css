@@ -75,7 +75,6 @@
   .main-nav {
     display: none;
   }
-
   h1 {
     font-size: 180%;
   }
@@ -93,10 +92,23 @@
     margin-top: 5px;
   }
   .app-screen {
-    margin:auto;
+    height: 400px;
+    width: auto;
+    margin: auto;
   }
   .btn-app {
-   margin-right: 30px;
+    margin: auto;
+  }
+  .works-step div {
+    padding-top: 11px;
+    margin-right: 15px;
+  }
+  .works-step p {
+    padding-top: 6px;
+  }
+  .btn-app img {
+    display: inline-block;
+
   }
 }
 
